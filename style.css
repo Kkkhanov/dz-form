@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    width: 400px;
+    height: 30px;
+    margin-left: 8px;
+    padding-left: 5px;
+    box-sizing: border-box;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+}
+.form-input{
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+}
+form{
+    display: flex;
+}
+.w50{
+    width: 50%;
+}
+section{
+    margin-left: 16px;
+}
+.P-D{
+    margin-left: 8px;
+}
+select{
+    margin-left: 8px;
+    width: 50%;
+    height: 30px;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-bottom: 2px solid gray;
+}
+.checkbox{
+    width: auto;
+    margin-left: 20px;
+    height: auto;
+}
+main{
+    border: 1px solid;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: rgba(128, 128, 128, 0.199);
+}
+p{
+    margin-left: 8px;
+}
+button{
+    margin-top: 8px;
+    margin-left: 20px;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: rgb(122, 184, 255);
+    border: none;
+}
+@media screen and (max-width: 900px) {
+    form{
+        display: flex;
+        flex-direction: column;
+    }
+    .s2{
+        margin-left: 8px;
+    }
+    .P-D{
+        margin-top: 8px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .column{
+        display: flex;
+        flex-direction: column;
+    }
+    img{
+        display: none;
+    }
+    .form-input{
+        width: 412px;
+    }
+    
+    .w50{
+        width: 97%;
+    }
+    .second{
+        margin-top: 8px;
+    }
+    .s2{
+        margin-left: 12px;
+    }
+    select{
+        width: 98%;
+    }
+    .s3{
+        margin-left: 12px;
+    }
+    .P-D{
+        margin-top: 8px;
+    }
+}
